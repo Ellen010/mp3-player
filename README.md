@@ -1,7 +1,7 @@
-MP3 Player 
-with string and array methods like the find(), forEach(), map(), join() and etc.
-It handles audio playback, manages a playlist, implements play, pause, next, previous, and shuffle functionalities. 
-It also includes dynamic update of user interface based on the current song.
+<h1>MP3 Player</h1> 
+<h3>with string and array methods like the find(), forEach(), map(), join() and etc. </h3>
+<h3>It handles audio playback, manages a playlist, implements play, pause, next, previous, and shuffle functionalities. 
+It also includes dynamic update of user interface based on the current song.</h3>
 
 
 
