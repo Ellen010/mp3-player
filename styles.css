@@ -1,5 +1,5 @@
 :root {
-  /* colors */
+
   --primary-color: #dfdfe2;
   --secondary-color: #ffffff;
   --app-background-color: #4d4d62;
@@ -7,11 +7,11 @@
   --foreground-color: #3b3b4f;
   --highlight-color: #f1be32;
 
-  /* font sizes */
+
   --root-font-size: 16px;
   font-size: var(--root-font-size);
 
-  /* font-families */
+ 
   --font-headline: "Roboto Mono", monospace;
   --font-family: "Lato", sans-serif;
 }
@@ -96,6 +96,11 @@ ul {
   color: var(--secondary-color);
   margin: 0 10px;
   font-family: var(--font-headline);
+   align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
 }
 
 .player-content {
@@ -115,6 +120,7 @@ ul {
 
 #player-album-art img {
   width: 150px;
+  height: 150px;
   display: block;
 }
 
@@ -169,7 +175,7 @@ button:focus,
   outline-width: 2px;
 }
 
-/* Playlist */
+
 .playlist {
   height: auto;
   padding: 10px;
